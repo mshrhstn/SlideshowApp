@@ -133,6 +133,20 @@ class ViewController: UIViewController {
     
         
     @IBAction func onTapAction(_ sender: Any) {
+        //タップした時のスライドショーのタイマーを止める
+        if self.timer != nil {
+        print("タイマー停止")
+        switchButton.setTitle("再生", for: .normal)
+        backButton.isEnabled = true
+        nextButton.isEnabled = true
+        // タイマーを停止
+        timer.invalidate()
+        // nil にして再び再生(nil の時にタイマー生成)
+        self.timer = nil
+        //戻った時に背景色を白にする
+        self.view.backgroundColor = UIColor.white
+        }
+        //遷移先(toNextView)に移動する
         self.performSegue(withIdentifier: "toNextView", sender: nil)
     }
     //@objc func myviewTapped(_ sender: UITapGestureRecognizer) {

@@ -14,6 +14,9 @@
 		0949466F24CC59C500F1BE6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0949466E24CC59C500F1BE6D /* Assets.xcassets */; };
 		0949467224CC59C500F1BE6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0949467024CC59C500F1BE6D /* LaunchScreen.storyboard */; };
 		0949468024CC6D8800F1BE6D /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0949467F24CC6D8800F1BE6D /* NextViewController.swift */; };
+		096A3F6224CF005000B295F2 /* IMG_6570.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 096A3F5F24CF005000B295F2 /* IMG_6570.jpg */; };
+		096A3F6324CF005000B295F2 /* IMG_6725.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 096A3F6024CF005000B295F2 /* IMG_6725.jpg */; };
+		096A3F6424CF005000B295F2 /* IMG_6729.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 096A3F6124CF005000B295F2 /* IMG_6729.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		0949467124CC59C500F1BE6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0949467324CC59C500F1BE6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0949467F24CC6D8800F1BE6D /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		096A3F5F24CF005000B295F2 /* IMG_6570.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_6570.jpg; sourceTree = "<group>"; };
+		096A3F6024CF005000B295F2 /* IMG_6725.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_6725.jpg; sourceTree = "<group>"; };
+		096A3F6124CF005000B295F2 /* IMG_6729.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_6729.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 		0949466424CC59C300F1BE6D /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
+				096A3F5F24CF005000B295F2 /* IMG_6570.jpg */,
+				096A3F6024CF005000B295F2 /* IMG_6725.jpg */,
+				096A3F6124CF005000B295F2 /* IMG_6729.jpg */,
 				0949466524CC59C300F1BE6D /* AppDelegate.swift */,
 				0949466724CC59C300F1BE6D /* SceneDelegate.swift */,
 				0949466924CC59C300F1BE6D /* ViewController.swift */,
@@ -129,8 +138,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0949467224CC59C500F1BE6D /* LaunchScreen.storyboard in Resources */,
+				096A3F6224CF005000B295F2 /* IMG_6570.jpg in Resources */,
 				0949466F24CC59C500F1BE6D /* Assets.xcassets in Resources */,
 				0949466D24CC59C300F1BE6D /* Main.storyboard in Resources */,
+				096A3F6324CF005000B295F2 /* IMG_6725.jpg in Resources */,
+				096A3F6424CF005000B295F2 /* IMG_6729.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
