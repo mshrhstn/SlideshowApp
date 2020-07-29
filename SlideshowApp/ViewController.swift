@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let image = UIImage(named: "IMG_6570")
+        let image = UIImage(named: "IMG_6570.jpg")
         imageView.image = image
         
         //let tapGesture = UITapGestureRecognizer(target: self, action: #selector(ViewController.myviewTapped(_:)))
@@ -40,7 +40,7 @@ class ViewController: UIViewController {
     
     var displayImageNo = 0
     
-    let imageNameArray = ["IMG_6570", "IMG_6725", "IMG_6729"]
+    let imageNameArray = ["IMG_6570.jpg", "IMG_6725.jpg", "IMG_6729.jpg"]
     
     func displayImage() {
         let name = imageNameArray[displayImageNo]
